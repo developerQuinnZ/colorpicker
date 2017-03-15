@@ -12,8 +12,11 @@ body {
 
 #container {
 	max-width: 600px;
-<<<<<<< HEAD
+	margin: 0 auto;
+
 }
-=======
+
+h1 {
+	color: white;
+	text-align: center;
 }
->>>>>>> bbd2c87c9a39ddaf70e9435303a048b9410edc76
