@@ -1,5 +1,7 @@
 body {
 	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat","Avenir";
 }
 
 .square {
@@ -8,6 +10,8 @@ body {
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
+	border-radius: 15%;
+	transition: background .3s;
 }
 
 #container {
@@ -19,6 +23,13 @@ body {
 h1 {
 	color: white;
 	text-align: center;
+	text-align: center;
+	background-color: steelblue;
+	line-height: 1.1;
+	margin: 0;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 20px 0;
 }
 
 
@@ -27,4 +38,36 @@ h1 {
 	height: 30px;
 	text-align: center;
 	color: black;
+}
+
+.selected {
+	color: white;
+	background-color: steelblue;
+}
+}
+
+#colorDisplay {
+	font-size: 2em;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all .3s;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
 }
